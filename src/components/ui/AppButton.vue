@@ -7,6 +7,11 @@ const newAdvice = () => {
 }
 </script>
 <template>
-  <button @click="newAdvice">New Advice</button>
+  <button
+    class="p-4 flex items-center justify-center bg-primary-green rounded-full hover:shadow-dice-button transition-shadow ease-in duration-50"
+    @click="newAdvice"
+  >
+    <img src="@/assets/img/icon-dice.svg" alt="Dice" />
+  </button>
 </template>
 <style></style>

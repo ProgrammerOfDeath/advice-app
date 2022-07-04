@@ -1,16 +1,18 @@
 import { defineStore } from 'pinia'
 
 interface AdviceSlip {
-  slip: {
-    id: string
-    advice: string
-  }
+  slip: Advice
+}
+
+export interface Advice {
+  id: string
+  advice: string
 }
 
 export const useAdviceStore = defineStore({
   id: 'advice',
   state: () => ({
-    advice: ''
+    advice: {} as Advice
   }),
   actions: {
     async fetchAdvice() {
@@ -20,7 +22,7 @@ export const useAdviceStore = defineStore({
 
         if (adviceData) {
           console.log(adviceData)
-          this.advice = adviceData.slip.advice
+          this.advice = adviceData.slip
           console.log(this.advice)
         } else {
           throw Error

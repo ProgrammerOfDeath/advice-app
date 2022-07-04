@@ -23,6 +23,9 @@ module.exports = {
     extend: {
       fontSize: {
         quote: '1.75rem'
+      },
+      boxShadow: {
+        'dice-button': '0 0 10px 0 hsl(150, 100%, 66%)'
       }
     }
   },
