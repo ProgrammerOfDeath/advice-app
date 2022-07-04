@@ -1,9 +1,16 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useAdviceStore } from '@/stores/advice'
+import AdviceContainer from './AdviceContainer.vue'
+const adviceStore = useAdviceStore()
+adviceStore.fetchAdvice()
+</script>
 
 <template>
-  <div>
-    <p class="text-quote">Hello World</p>
-  </div>
+  <main
+    class="flex justify-center items-center bg-neutral-blue-dark absolute inset-0"
+  >
+    <AdviceContainer />
+  </main>
 </template>
 
 <style></style>
