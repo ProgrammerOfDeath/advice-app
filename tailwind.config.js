@@ -24,8 +24,14 @@ module.exports = {
       fontSize: {
         quote: '1.75rem'
       },
+      letterSpacing: {
+        headline: '.2rem'
+      },
       boxShadow: {
         'dice-button': '0 0 10px 0 hsl(150, 100%, 66%)'
+      },
+      fontFamily: {
+        main: ['Manrope', 'sans-serif']
       }
     }
   },

@@ -5,12 +5,12 @@ import AdviceHeadline from './AdviceHeadline.vue'
 </script>
 <template>
   <div
-    class="w-1/3 bg-neutral-blue-dark-grayish rounded-xl p-10 text-center relative"
+    class="w-full lg:w-1/3 bg-neutral-blue-dark-grayish rounded-xl p-10 text-center relative"
   >
-    <AdviceHeadline />
+    <AdviceHeadline class="mb-6" />
     <AdviceText />
     <img
-      class="mt-5 mb-5"
+      class="my-7 mx-auto"
       src="@/assets/img/pattern-divider-desktop.svg"
       alt="Divider"
     />

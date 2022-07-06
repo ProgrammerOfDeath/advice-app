@@ -5,7 +5,7 @@ const adviceStore = useAdviceStore()
 </script>
 
 <template>
-  <div class="text-base text-primary-green">
+  <div class="text-sm uppercase tracking-headline text-primary-green">
     ADVICE #{{ adviceStore.advice.id }}
   </div>
 </template>

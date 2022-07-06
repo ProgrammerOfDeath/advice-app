@@ -1,25 +1,55 @@
-# advice-app
+# Frontend Mentor - Advice generator app solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Recommended IDE Setup
+## Table of contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Frontend Mentor - Advice generator app solution](#frontend-mentor---advice-generator-app-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
+  - [Project Setup](#project-setup)
+    - [Compile and Hot-Reload for Development](#compile-and-hot-reload-for-development)
+    - [Type-Check, Compile and Minify for Production](#type-check-compile-and-minify-for-production)
+    - [Lint with ESLint](#lint-with-eslint)
 
-## Type Support for `.vue` Imports in TS
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Overview
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### The challenge
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Users should be able to:
 
-## Customize configuration
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Links
+
+- Live Site URL: [Smart Advicer](https://smart-advice.netlify.app/)
+
+## My process
+
+### Built with
+
+- Vue3
+- Tailwind
+- Mobile-first workflow
+- TypeScript
+- [Vue](https://vuejs.org/) - JS Framework
+
+## Author
+
+- Website - [@ProgrammerOfDeath](https://github.com/ProgrammerOfDeath)
+- Frontend Mentor - [@ProgrammerOfDeath](https://www.frontendmentor.io/profile/ProgrammerOfDeath)
+- LinkedIn - [Rene Hotho](https://www.linkedin.com/in/rene-hotho/)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Project Setup
 
